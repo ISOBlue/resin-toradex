@@ -1,15 +1,18 @@
+include conf/tdx_version.conf
+
 #
 # Apalis imx6
 #
 
-IMAGE_FSTYPES_append_apalis-imx6 = " resinos-img"
+IMAGE_FSTYPES_append_apalis-imx6 = " sdcard resinos-img teziimg"
+IMAGE_CLASSES_append_apalis-imx6 = " image_type_tezi"
 
 # Customize resinos-img
 RESIN_IMAGE_BOOTLOADER_apalis-imx6 = "u-boot"
 
 RESIN_BOOT_PARTITION_FILES_apalis-imx6 = " \
     ${KERNEL_IMAGETYPE}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
-    uImage-imx6q-apalis-eval_v1_0.dtb:/imx6q-apalis-eval_v1_0.dtb \
+    uImage-imx6q-apalis_v1_0-eval.dtb:/imx6q-apalis_v1_0-eval.dtb \
     uImage-imx6q-apalis-eval.dtb:/imx6q-apalis-eval.dtb \
     "
 
@@ -17,7 +20,8 @@ RESIN_BOOT_PARTITION_FILES_apalis-imx6 = " \
 # Colibri imx6
 #
 
-IMAGE_FSTYPES_append_colibri-imx6 = " resinos-img"
+IMAGE_FSTYPES_append_colibri-imx6 = " sdcard resinos-img teziimg"
+IMAGE_CLASSES_append_colibri-imx6 = " image_type_tezi"
 
 # Customize resinos-img
 RESIN_IMAGE_BOOTLOADER_colibri-imx6 = "u-boot"

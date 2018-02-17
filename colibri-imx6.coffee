@@ -16,7 +16,7 @@ module.exports =
 	aliases: [ 'colibri-imx6' ]
 	name: 'Colibri iMX6dl'
 	arch: 'armv7hf'
-	state: 'discontinued'
+	state: 'released'
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions
@@ -40,7 +40,7 @@ module.exports =
 		machine: 'colibri-imx6'
 		image: 'resin-image-flasher'
 		fstype: 'resinos-img'
-		version: 'yocto-jethro'
+		version: 'yocto-morty'
 		deployArtifact: 'resin-image-flasher-colibri-imx6.resinos-img'
 		compressed: true
 

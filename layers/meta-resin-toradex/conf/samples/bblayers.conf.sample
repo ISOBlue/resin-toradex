@@ -8,15 +8,19 @@ BBFILES ?= ""
 BBLAYERS ?= " \
     ${TOPDIR}/../layers/poky/meta \
     ${TOPDIR}/../layers/poky/meta-yocto \
+    ${TOPDIR}/../layers/meta-toradex-nxp \
+    ${TOPDIR}/../layers/meta-freescale \
+    ${TOPDIR}/../layers/meta-freescale-3rdparty \
+    ${TOPDIR}/../layers/meta-toradex-bsp-common \
     ${TOPDIR}/../layers/meta-openembedded/meta-oe \
     ${TOPDIR}/../layers/meta-openembedded/meta-filesystems \
     ${TOPDIR}/../layers/meta-openembedded/meta-networking \
+    ${TOPDIR}/../layers/meta-openembedded/meta-multimedia \
     ${TOPDIR}/../layers/meta-openembedded/meta-python \
-    ${TOPDIR}/../layers/meta-fsl-arm \
-    ${TOPDIR}/../layers/meta-toradex \
     ${TOPDIR}/../layers/meta-resin/meta-resin-common \
-    ${TOPDIR}/../layers/meta-resin/meta-resin-jethro \
+    ${TOPDIR}/../layers/meta-resin/meta-resin-morty \
     ${TOPDIR}/../layers/meta-resin-toradex \
+    ${TOPDIR}/../layers/meta-rust \
     ${TOPDIR}/../layers/oe-meta-go \
     "
 
@@ -24,5 +28,5 @@ BBLAYERS_NON_REMOVABLE ?= " \
     ${TOPDIR}/../layers/poky/meta \
     ${TOPDIR}/../layers/poky/meta-yocto \
     ${TOPDIR}/../layers/meta-resin/meta-resin-common \
-    ${TOPDIR}/../layers/meta-resin/meta-resin-jethro \
+    ${TOPDIR}/../layers/meta-resin/meta-resin-morty \
     "
