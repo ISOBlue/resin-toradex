@@ -4,8 +4,7 @@ include conf/tdx_version.conf
 # Apalis imx6
 #
 
-IMAGE_FSTYPES_append_apalis-imx6 = " sdcard resinos-img teziimg"
-IMAGE_CLASSES_append_apalis-imx6 = " image_type_tezi"
+IMAGE_FSTYPES_append_apalis-imx6 = " sdcard resinos-img"
 
 # Customize resinos-img
 RESIN_IMAGE_BOOTLOADER_apalis-imx6 = "u-boot"
@@ -20,8 +19,7 @@ RESIN_BOOT_PARTITION_FILES_apalis-imx6 = " \
 # Colibri imx6
 #
 
-IMAGE_FSTYPES_append_colibri-imx6 = " sdcard resinos-img teziimg"
-IMAGE_CLASSES_append_colibri-imx6 = " image_type_tezi"
+IMAGE_FSTYPES_append_colibri-imx6 = " sdcard resinos-img"
 
 # Customize resinos-img
 RESIN_IMAGE_BOOTLOADER_colibri-imx6 = "u-boot"
