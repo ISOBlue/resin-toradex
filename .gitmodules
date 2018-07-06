@@ -4,12 +4,6 @@
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded.git
-[submodule "layers/meta-freescale"]
-	path = layers/meta-freescale
-	url = https://github.com/Freescale/meta-freescale
-[submodule "layers/meta-freescale-3rdparty"]
-	path = layers/meta-freescale-3rdparty
-	url = https://github.com/Freescale/meta-freescale-3rdparty
 [submodule "layers/meta-toradex-bsp-common"]
 	path = layers/meta-toradex-bsp-common
 	url = https://git.toradex.com/cgit/meta-toradex-bsp-common.git
@@ -31,3 +25,9 @@
 [submodule "layers/meta-rust"]
 	path = layers/meta-rust
 	url = https://github.com/meta-rust/meta-rust.git
+[submodule "layers/meta-freescale"]
+	path = layers/meta-freescale
+	url = https://github.com/Freescale/meta-freescale
+[submodule "layers/meta-freescale-3rdparty"]
+	path = layers/meta-freescale-3rdparty
+	url = https://github.com/Freescale/meta-freescale-3rdparty
